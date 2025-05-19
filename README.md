@@ -1,6 +1,8 @@
 # Hackboat 2025
 
-This is the website for Hackboat 2025 - the unconference that floats. Join us for a one-day infosec unconference on a boat in Portland, OR on June 6th, 2025.
+This is the github repo for the [Hackboat website](https://hackboat.org) - the unconference that floats.
+
+Join us for a one-day infosec unconference on a boat in Portland, OR on June 6th, 2025.
 
 ## Prerequisites
 
@@ -14,13 +16,14 @@ Before you begin, ensure you have the following installed:
 
 1. Clone this repository to your local machine
 
-   ```
+   ```bash
    git clone <repository-url>
    cd hackboat2025
    ```
 
 2. Install the required gems
-   ```
+
+   ```bash
    bundle install
    ```
 
@@ -43,19 +46,10 @@ bundle exec jekyll serve --drafts --livereload
 ## Project Structure
 
 - `_config.yml`: Configuration settings for the Jekyll site
-- `_posts/`: Blog posts in Markdown format
 - `_layouts/`: HTML templates for different page types
-- `_includes/`: Reusable HTML components
 - `_sass/`: SCSS stylesheets
 - `assets/`: Static files like images, CSS, and JavaScript
-- `index.markdown`: The main landing page
-
-## Event Details
-
-- **Date**: June 6th, 2025
-- **Location**: 110 SE Caruthers St, Portland, Oregon, 97214 (by OMSI)
-- **Contact**: hackboat@bsidespdx.org or (503) 560 3551
-- **Twitter**: [@hackboatpdx](https://twitter.com/hackboatpdx)
+- `index.html`: The main landing page
 
 ## Making Changes
 
@@ -63,10 +57,4 @@ After making changes to the site:
 
 1. Test your changes locally using the instructions above
 2. Commit your changes to the repository
-3. Push to the main branch (or create a pull request)
-
-## Deployment
-
-This site is built with Jekyll, which generates static HTML files. The deployment process will depend on your hosting provider.
-
-For more information on using Jekyll, refer to the [Jekyll documentation](https://jekyllrb.com/docs/).
+3. Create a pull request
