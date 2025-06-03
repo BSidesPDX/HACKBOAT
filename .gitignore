@@ -6,3 +6,6 @@ _site/
 .bundle/
 vendor/
 /docs/*
+
+# Ignore devcontainer for now (until it's working)
+.devcontainer
