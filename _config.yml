@@ -26,7 +26,7 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://hackboat.org' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackboatpdx
 twitter_url: https://twitter.com/hackboatpdx
-phone: (503) 560 3551
+# phone: (503) 560 3551
 address: 7600 N Interstate Ave Ste. 210, Portland, OR USA
 
 # Build settings
