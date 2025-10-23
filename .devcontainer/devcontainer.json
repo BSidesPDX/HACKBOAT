@@ -1,0 +1,14 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
+
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "bundle install",
+  "postStartCommand": "bundle exec jekyll serve --host 0.0.0.0 --livereload --incremental --watch --force_polling"
+}
