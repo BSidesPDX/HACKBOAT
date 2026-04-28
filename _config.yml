@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hackboat 2025
+title: Hackboat 2026
 email: hackboat@bsidespdx.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Hackboat 2025 - The unconference that floats.
+  Hackboat 2026 - The unconference that floats.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://hackboat.org' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackboatpdx
@@ -36,7 +36,7 @@ plugins:
 destination: docs
 
 # Custom settings
-event_date: June 6th, 2025
+event_date: June 5th, 2026
 event_location: 110 SE Caruthers St, Portland, Oregon, 97214 (by OMSI)
 default_image: /assets/images/hackboat-2025.png
 # Exclude from processing.

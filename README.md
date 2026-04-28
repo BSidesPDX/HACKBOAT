@@ -1,8 +1,8 @@
-# Hackboat 2025
+# Hackboat 2026
 
 This is the github repo for the [Hackboat website](https://hackboat.org) - the unconference that floats.
 
-Join us for a one-day infosec unconference on a boat in Portland, OR on June 6th, 2025.
+Join us for a one-day infosec unconference on a boat in Portland, OR on June 5th, 2026.
 
 ## Prerequisites
 
@@ -18,7 +18,6 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone <repository-url>
-   cd hackboat2025
    ```
 
 2. Install the required gems
