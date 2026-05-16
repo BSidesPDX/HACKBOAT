@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Pirata+One&display=swap');
 
 /* Variables */
 
@@ -209,11 +209,13 @@ ul {
 }
 
 .hero .hero-content {
-  max-width: 600px;
+  max-width: 720px;
 }
 
 .hero .hero-content .site-title {
-  font-size: 4.5rem;
+  font-family: 'Pirata One', cursive;
+  font-size: 5rem;
+  letter-spacing: 0.05em;
   color: var(--white);
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -450,6 +452,10 @@ ul {
   color: red;
 }
 
+.is-hidden {
+  display: none !important;
+}
+
 /* Sponsor Logo Sections */
 .sponsor-logos {
   padding: 4rem 0;
@@ -486,10 +492,46 @@ ul {
   transform: translateY(-5px);
 }
 
+.sponsor-logo-card {
+  background: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  height: 190px;
+  min-height: 190px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sponsor-logo-card:hover {
+  background: var(--white);
+}
+
 .sponsor-placeholder p {
   color: var(--primary-color);
   font-size: 1.2rem;
   margin: 0;
+}
+
+.sponsor-placeholder img {
+  max-width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.sponsor-logo-card img {
+  display: block;
+  object-fit: contain;
+}
+
+.sponsor-logo-card--workbrew img {
+  width: 88%;
+  max-height: 118px;
+  transform: translateY(1px);
+}
+
+.sponsor-logo-card--sailpoint img {
+  width: 86%;
+  max-height: 128px;
+  transform: translateY(3px);
 }
 
 /* Footer */
@@ -612,7 +654,7 @@ ul {
   }
 
   .hero .hero-content .site-title {
-    font-size: 3rem;
+    font-size: 3.25rem;
   }
 
   .info-grid,
