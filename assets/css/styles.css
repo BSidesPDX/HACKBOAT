@@ -361,7 +361,7 @@ ul {
 /* Event Info Section */
 .event-info {
   padding: 5rem 0;
-  background-color: var(--light-water);
+  background-color: var(--deep-sea-blue);
 }
 
 .event-info h2 {
@@ -371,7 +371,7 @@ ul {
 /* About Section */
 .about {
   padding: 5rem 0;
-  background-color: var(--deep-sea-blue);
+  background-color: var(--light-water);
   color: var(--white);
   scroll-margin-top: 60px;
 }
