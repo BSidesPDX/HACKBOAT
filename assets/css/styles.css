@@ -474,6 +474,12 @@ ul {
   margin-bottom: 4rem;
 }
 
+.sponsor-tier--spyglass .sponsor-grid {
+  max-width: 584px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .sponsor-placeholder {
   background: rgba(255, 255, 255, 0.1);
   border: 2px dashed var(--primary-color);
@@ -523,15 +529,20 @@ ul {
 }
 
 .sponsor-logo-card--workbrew img {
-  width: 88%;
-  max-height: 118px;
+  width: 94%;
+  max-height: 135px;
   transform: translateY(1px);
 }
 
 .sponsor-logo-card--sailpoint img {
-  width: 86%;
-  max-height: 128px;
+  width: 92%;
+  max-height: 145px;
   transform: translateY(3px);
+}
+
+.sponsor-logo-card--issapdx img {
+  width: 88%;
+  max-height: 145px;
 }
 
 /* Footer */
