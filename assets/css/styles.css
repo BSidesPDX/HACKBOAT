@@ -668,6 +668,21 @@ ul {
     font-size: 3.25rem;
   }
 
+  .sponsor-logo-card--workbrew img {
+    width: 98%;
+    max-height: 155px;
+  }
+
+  .sponsor-logo-card--sailpoint img {
+    width: 98%;
+    max-height: 165px;
+  }
+
+  .sponsor-logo-card--issapdx img {
+    width: 96%;
+    max-height: 165px;
+  }
+
   .info-grid,
   .activities-grid {
     grid-template-columns: 1fr;
