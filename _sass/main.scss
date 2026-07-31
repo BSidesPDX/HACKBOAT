@@ -1,3 +1,4 @@
+@use "sass:color";
 // Variables
 $deep-sea-blue: #1a3a5f;
 $teal: #2a9d8f;
@@ -64,7 +65,7 @@ a {
   transition: color 0.3s ease;
 
   &:hover {
-    color: darken($teal, 10%);
+    color: color.adjust($teal, $lightness: -10%);
   }
 }
 
@@ -154,7 +155,7 @@ ul {
             border-radius: 4px;
 
             &:hover {
-              background-color: darken($coral, 10%);
+              background-color: color.adjust($coral, $lightness: -10%);
             }
 
             &:after {
@@ -278,7 +279,7 @@ ul {
   cursor: pointer;
 
   &:hover {
-    background-color: darken($coral, 10%);
+    background-color: color.adjust($coral, $lightness: -10%);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: $white;

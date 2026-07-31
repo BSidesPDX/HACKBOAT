@@ -39,6 +39,13 @@ destination: docs
 event_date: June 5th, 2026
 event_location: 110 SE Caruthers St, Portland, Oregon, 97214 (by OMSI)
 default_image: /assets/images/hackboat-2026.png
+
+# silence deprecation warnings for minima theme
+sass:
+  quiet_deps: true
+  silence_deprecations: ['import', 'global-builtin', 'color-functions']
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
